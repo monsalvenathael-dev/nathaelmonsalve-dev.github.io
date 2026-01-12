@@ -22,7 +22,6 @@ layout: null
         .card { border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 8px; transition: transform 0.2s; display: flex; flex-direction: column; justify-content: space-between; }
         .card:hover { transform: translateY(-5px); border-color: var(--primary); }
         
-        /* Estilos de botones unificados */
         .btn { background: var(--primary); color: white; padding: 0.5rem 1.5rem; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; margin-top: 1rem; transition: background 0.2s; }
         .btn:hover { background: #1d4ed8; }
         .btn-header { background: white; color: var(--dark); margin-top: 1rem; }
@@ -34,7 +33,7 @@ layout: null
 <header>
     <h1>Blog</h1>
     <div class="tagline">Nathael Monsalve Peña</div>
-    <a href="{{ '/' | relative_url }}" class="btn btn-header"><i class="fas fa-home"></i> Volver al Inicio</a>
+    <a href="./index.html" class="btn btn-header"><i class="fas fa-home"></i> Volver al Inicio</a>
 </header>
 
 <div class="container">
@@ -52,7 +51,7 @@ layout: null
                         <small style="color: #64748b;"><i class="far fa-calendar-alt"></i> {{ post.date | date: "%d/%m/%Y" }}</small>
                         <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
                     </div>
-                    <a href="{{ post.url | relative_url }}" class="btn">Leer artículo</a>
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="btn">Leer artículo</a>
                 </div>
                 {% endfor %}
             </div>
