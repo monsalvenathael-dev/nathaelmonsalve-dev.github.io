@@ -1,9 +1,9 @@
-title: Nathael Monsalve | Blog
+title: Nathael Monsalve | Tech Blog
 email: monsalvenathael@gmail.com
 description: >-
   Portafolio y reflexiones sobre Ingeniería de Sistemas...
-baseurl: "" 
-url: "https://monsalvenathael-dev.github.io" # Asegúrate que esta URL coincida con la real de tu Github Pages
+baseurl: "/nathaelmonsalve-dev.github.io" 
+url: "https://monsalvenathael-dev.github.io"
 
 include: [_posts, _layouts]
 permalink: /blog/:title/
