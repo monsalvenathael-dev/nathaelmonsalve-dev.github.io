@@ -9,15 +9,10 @@ layout: null
     <title>Nathael Monsalve | Portafolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        :root {
-            --primary: #2563eb;
-            --dark: #0f172a;
-            --light: #f8fafc;
-            --secondary: #64748b;
-        }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; background: var(--light); color: var(--dark); }
+        :root { --primary: #2563eb; --dark: #0f172a; --light: #f8fafc; --secondary: #64748b; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; margin: 0; background: var(--light); color: var(--dark); }
         header { background: var(--dark); color: white; padding: 4rem 2rem; text-align: center; }
-        .container { max-width: 900px; margin: -50px auto 20px; background: white; padding: 2rem; border-radius: 12px; shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
+        .container { max-width: 900px; margin: -50px auto 20px; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
         h1 { margin: 0; font-size: 2.5rem; }
         .tagline { color: #94a3b8; font-size: 1.1rem; margin-top: 0.5rem; }
         .section { margin: 2rem 0; }
@@ -37,9 +32,8 @@ layout: null
     <h1>Nathael Monsalve Peña</h1>
     <div class="tagline">Ingeniero de Sistemas en formación | Profesional en Análisis de Datos</div>
     <div>
-        <a href="{{ '/blog.html' | relative_url }}" class="btn">Blog</a>
-        
-        <a href="{{ '/portafolio.html' | relative_url }}" class="btn">Portafolio</a>
+        <a href="./blog.html" class="btn">Blog</a>
+        <a href="./portafolio.html" class="btn">Portafolio</a>
     </div>
 </header>
 
