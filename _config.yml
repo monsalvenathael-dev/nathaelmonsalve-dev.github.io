@@ -13,4 +13,4 @@ include: [_posts, _layouts]
 plugins:
   - jekyll-feed
 permalink: /blog/:year/:month/:day/:title.html
-relative_urls: true
+relative_url: true
