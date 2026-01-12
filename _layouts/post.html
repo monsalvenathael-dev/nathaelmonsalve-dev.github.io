@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | Nathael Monsalve</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --primary: #2563eb; --dark: #0f172a; --light: #f8fafc; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; margin: 0; background: var(--light); color: var(--dark); padding: 2rem; }
+        .article-container { max-width: 800px; margin: auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
+        .back-link { display: inline-block; margin-bottom: 20px; color: var(--primary); text-decoration: none; font-weight: bold; }
+        h1 { color: var(--primary); font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .meta { color: #64748b; font-size: 0.9rem; margin-bottom: 2rem; }
+        .content { font-size: 1.1rem; color: #334155; }
+        .content h2 { border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+
+    <div class="article-container">
+        <a href="{{ '/blog.html' | relative_url }}" class="back-link"><i class="fas fa-arrow-left"></i> Volver al Blog</a>
+        
+        <header>
+            <h1>{{ page.title }}</h1>
+            <div class="meta">Publicado el {{ page.date | date: "%d de %B, %Y" }}</div>
+        </header>
+
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
+
+</body>
+</html>
