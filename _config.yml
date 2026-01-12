@@ -1,16 +1,9 @@
 title: Nathael Monsalve | Tech Blog
 email: monsalvenathael@gmail.com
 description: >-
-  Portafolio y reflexiones sobre Ingeniería de Sistemas, 
-  Análisis de Datos y Automatización.
+  Portafolio y reflexiones sobre Ingeniería de Sistemas...
 baseurl: "" 
 url: "https://monsalvenathael-dev.github.io"
 
-# Configuración de Markdown
-markdown: kramdown
-theme: jekyll-theme-minimal
 include: [_posts, _layouts]
-plugins:
-  - jekyll-feed
 permalink: /blog/:year/:month/:day/:title.html
-relative_url: true
