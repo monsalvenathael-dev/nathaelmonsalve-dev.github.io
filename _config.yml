@@ -1,13 +1,14 @@
 title: Nathael Monsalve | Tech Blog
 email: monsalvenathael@gmail.com
-description: >- # Esto aparece en los buscadores
+description: >-
   Portafolio y reflexiones sobre Ingeniería de Sistemas, 
   Análisis de Datos y Automatización.
-baseurl: "" # Déjalo vacío
+baseurl: "" 
 url: "https://monsalvenathael-dev.github.io"
 
 # Configuración de Markdown
 markdown: kramdown
-theme: jekyll-theme-minimal # Un tema limpio por defecto
+theme: jekyll-theme-minimal
+include: [_posts, _layouts] # 👈 Asegúrate de que esta línea exista
 plugins:
   - jekyll-feed
