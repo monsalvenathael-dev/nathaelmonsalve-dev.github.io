@@ -6,4 +6,4 @@ baseurl: ""
 url: "https://monsalvenathael-dev.github.io"
 
 include: [_posts, _layouts]
-permalink: /blog/:year/:month/:day/:title.html
+permalink: /blog/:title/
