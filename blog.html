@@ -26,6 +26,7 @@ layout: default
         .btn { background: var(--primary); color: white; padding: 0.5rem 1.5rem; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; margin: 1rem 0.5rem 0; transition: transform 0.2s; }
         .btn:hover { transform: translateY(-3px); }
         footer { text-align: center; padding: 2rem; color: var(--secondary); font-size: 0.9rem; }
+        
     </style>
 </head>
 <body>
@@ -46,7 +47,7 @@ layout: default
                 <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
                 <small>{{ post.date | date: "%d de %B, %Y" }}</small>
                 <br>
-                <a href="{{ post.url | relative_url }}" class="btn">Leer artículo</a>
+                <a href="{{ post.url | absolute_url }}" class="btn">Leer artículo</a>
             </div>
             {% endfor %}
             </div>
