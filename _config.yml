@@ -9,6 +9,8 @@ url: "https://monsalvenathael-dev.github.io"
 # Configuración de Markdown
 markdown: kramdown
 theme: jekyll-theme-minimal
-include: [_posts, _layouts] # 👈 Asegúrate de que esta línea exista
+include: [_posts, _layouts]
 plugins:
   - jekyll-feed
+permalink: /blog/:year/:month/:day/:title.html
+relative_urls: true
