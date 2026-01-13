@@ -8,12 +8,20 @@
     <style>
         :root {
             --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --primary-light: #dbeafe;
             --dark: #0f172a;
             --light: #f8fafc;
             --secondary: #64748b;
-            --border: #cbd5e1;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #e11d48;
+            --info: #06b6d4;
+            --border: #94a3b8;
+            --text-main: #1e293b;
+            --white: #ffffff;
         }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; background: var(--light); color: var(--dark); }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; background: var(--light); color: var(--text-main); }
         header { background: var(--dark); color: white; padding: 4rem 2rem; text-align: center; }
         .container { max-width: 900px; margin: -50px auto 20px; background: white; padding: 2rem; border-radius: 12px; shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
         h1 { margin: 0; font-size: 2.5rem; }
@@ -24,7 +32,7 @@
         .card:hover { transform: translateY(-5px); border-color: var(--primary); }
         .badge { background: var(--primary); color: white; padding: 0.3rem 0.8rem; border-radius: 50px; font-size: 0.85rem; margin-right: 5px; display: inline-block; margin-bottom: 5px; }
         .btn { background: var(--primary); color: white; padding: 0.5rem 1.5rem; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; margin: 1rem 0.5rem 0; transition: transform 0.2s; }
-        .btn:hover { transform: translateY(-3px); }
+        .btn:hover { background: var(--primary-hover); transform: translateY(-3px); }
         .contact-links a { color: var(--primary); text-decoration: none; margin-right: 15px; font-weight: bold; }
         footer { text-align: center; padding: 2rem; color: var(--secondary); font-size: 0.9rem; }
     </style>
