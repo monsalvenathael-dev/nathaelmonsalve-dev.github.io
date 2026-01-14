@@ -16,6 +16,7 @@ Para el desarrollo y despliegue de este sitio se utilizaron:
 ## 📁 Estructura del Proyecto
 * `index.html`: Página principal con perfil profesional y stack tecnológico.
 * `blog.html`: Espacio dedicado a artículos de interés (En desarrollo).
+* `portafolio.html`: Espacio dedicado a mis proyectos (En desarrollo).
 * `/assets`: (Próximamente) Carpeta para imágenes de proyectos y estilos adicionales.
 
 ## 🚧 Estado del Desarrollo
