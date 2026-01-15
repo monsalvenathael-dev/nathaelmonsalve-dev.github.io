@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,45 +22,116 @@
             --text-main: #1e293b;
             --white: #ffffff;
         }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; background: var(--light); color: var(--text-main); }
-        header { background: var(--white); color: var(--text-main); padding: 4rem 2rem; text-align: center; border-bottom: 1px solid var(--border); }
-        .container { max-width: 900px; margin: -50px auto 20px; background: var(--white); padding: 2rem; border-radius: 12px; shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); border: 1px solid var(--border); }
-        h1 { margin: 0; font-size: 2.5rem; }
-        .tagline { color: var(--secondary); font-size: 1.1rem; margin-top: 0.5rem; }
-        .section { margin: 2rem 0; }
-        .card { background: var(--white); border: 1px solid var(--border); padding: 1.5rem; border-radius: 8px; transition: transform 0.2s; }
-        .card:hover { transform: translateY(-5px); border-color: var(--primary); }
-        .btn { background: var(--primary); color: white; padding: 0.5rem 1.5rem; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; margin: 1rem 0.5rem 0; transition: transform 0.2s; }
-        .btn:hover { background: var(--primary-hover); transform: translateY(-3px); }
-        footer { text-align: center; padding: 2rem; color: var(--secondary); font-size: 0.9rem; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background: var(--light);
+            color: var(--text-main);
+        }
+
+        header {
+            background: var(--white);
+            color: var(--text-main);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -50px auto 20px;
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .tagline {
+            color: var(--secondary);
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        .section {
+            margin: 2rem 0;
+        }
+
+        .card {
+            background: var(--white);
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+
+        .btn {
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1.5rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 1rem 0.5rem 0;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            background: var(--primary-hover);
+            transform: translateY(-3px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--secondary);
+            font-size: 0.9rem;
+        }
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Blog</h1>
-    <div class="tagline">Nathael Monsalve Peña</div>
-    <div>
-        <a href="index.html" class="btn">Volver al Inicio</a>
-    </div>
-</header>
-
-<div class="container">
-    <div class="section">
-        <h2><i class="fas fa-newspaper"></i> Artículos Recientes</h2>
-        
-        <!-- Pendiente desarrollar el texto-->
-        <div class="card">
-            <h3>Implicaciones de la protección de datos, si no eres una gran organización</h3>
-            <p>Este artículo está en desarrollo. Aquí se abordarán los desafíos y las mejores prácticas para la seguridad de la información en pequeñas empresas y para profesionales independientes.</p>
+    <header>
+        <h1>Blog</h1>
+        <div class="tagline">Nathael Monsalve Peña</div>
+        <div>
+            <a href="index.html" class="btn">Volver al Inicio</a>
         </div>
+    </header>
 
+    <div class="container">
+        <div class="section">
+            <h2><i class="fas fa-newspaper"></i> Artículos Recientes</h2>
+
+            <!-- Pendiente desarrollar el texto-->
+            <div class="card">
+                <h3>Implicaciones de la protección de datos, si no eres una gran organización</h3>
+                <p>Este artículo está en desarrollo. Aquí se abordarán los desafíos y las mejores prácticas para la
+                    seguridad de la información en pequeñas empresas y para profesionales independientes.</p>
+            </div>
+
+        </div>
     </div>
-</div>
 
-<footer>
-    &copy; 2026 Nathael Monsalve - Bogotá, Colombia
-</footer>
+    <footer>
+        &copy; 2026 Nathael Monsalve - Bogotá, Colombia
+    </footer>
 
 </body>
+
 </html>
