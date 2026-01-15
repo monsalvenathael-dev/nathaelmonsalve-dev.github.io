@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,55 +22,133 @@
             --text-main: #1e293b;
             --white: #ffffff;
         }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; background: var(--light); color: var(--text-main); }
-        header { background: var(--primary); color: var(--white); padding: 4rem 2rem; text-align: center; }
-        .container { max-width: 900px; margin: -50px auto 20px; background: var(--white); padding: 2rem; border-radius: 12px; shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); border: 1px solid var(--border); }
-        h1 { margin: 0; font-size: 2.5rem; }
-        .tagline { color: var(--primary-light); font-size: 1.1rem; margin-top: 0.5rem; }
-        .section { margin: 2rem 0; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
-        .card { background: var(--white); border: 1px solid var(--border); padding: 1.5rem; border-radius: 8px; transition: transform 0.2s; }
-        .card:hover { transform: translateY(-5px); border-color: var(--primary); }
-        .btn { background: var(--dark); color: var(--white); padding: 0.5rem 1.5rem; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; margin: 1rem 0.5rem 0; transition: transform 0.2s; }
-        .btn:hover { background: var(--text-main); transform: translateY(-3px); }
-        footer { text-align: center; padding: 2rem; color: var(--secondary); font-size: 0.9rem; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background: var(--light);
+            color: var(--text-main);
+        }
+
+        header {
+            background: var(--primary);
+            color: var(--white);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -50px auto 20px;
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .tagline {
+            color: var(--primary-light);
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        .section {
+            margin: 2rem 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--white);
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+
+        .btn {
+            background: var(--dark);
+            color: var(--white);
+            padding: 0.5rem 1.5rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 1rem 0.5rem 0;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            background: var(--text-main);
+            transform: translateY(-3px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--secondary);
+            font-size: 0.9rem;
+        }
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Portafolio</h1>
-    <div class="tagline">Nathael Monsalve Peña</div>
-    <div>
-        <a href="index.html" class="btn">Volver al Inicio</a>
-    </div>
-</header>
-
-<div class="container">
-    <div class="section">
-        <h2><i class="fas fa-project-diagram"></i> Proyectos</h2>
-        
-        <div class="grid">
-            <div class="card">
-                <h3>Análisis de Calidad del Aire en Pereira</h3>
-                <p>Investigación y análisis de datos sobre la calidad del aire en el municipio de Pereira comparado con la prevalencia de enfermedades respiratorias en la población.</p>
-                <!-- Puedes agregar un botón aquí si tienes un enlace al proyecto -->
-                <!-- <a href="#" style="color: var(--primary); text-decoration: none; font-weight: bold; display: block; margin-top: 10px;">Ver más &rarr;</a> -->
-            </div>
-            
-            <div class="card">
-                <h3>Limpieza de Datos de Proyectos Sociales</h3>
-                <p>Suite de herramientas en Python para detección de duplicados, muestreo estadístico y automatización de reportes para bases de datos.</p>
-                <a href="limpieza_datos.html" style="color: var(--primary); text-decoration: none; font-weight: bold; display: block; margin-top: 10px;">Ver Detalles &rarr;</a>
-            </div>
+    <header>
+        <h1>Portafolio</h1>
+        <div class="tagline">Nathael Monsalve Peña</div>
+        <div>
+            <a href="index.html" class="btn">Volver al Inicio</a>
         </div>
+    </header>
 
+    <div class="container">
+        <div class="section">
+            <h2><i class="fas fa-project-diagram"></i> Proyectos</h2>
+
+            <div class="grid">
+                <div class="card">
+                    <h3>Análisis de Calidad del Aire en Pereira</h3>
+                    <p>Investigación y análisis de datos sobre la calidad del aire en el municipio de Pereira comparado
+                        con la prevalencia de enfermedades respiratorias en la población.</p>
+                    <!-- Puedes agregar un botón aquí si tienes un enlace al proyecto -->
+                    <!-- <a href="#" style="color: var(--primary); text-decoration: none; font-weight: bold; display: block; margin-top: 10px;">Ver más &rarr;</a> -->
+                </div>
+
+                <div class="card">
+                    <h3>Limpieza de Datos de Proyectos Sociales</h3>
+                    <p>Suite de herramientas en Python para detección de duplicados, muestreo estadístico y
+                        automatización de reportes para bases de datos.</p>
+                    <a href="https://github.com/monsalvenathael-dev/Limpieza_datos_proy_sociales" target="_blank"
+                        style="color: var(--primary); text-decoration: none; font-weight: bold; display: block; margin-top: 10px;"><i
+                            class="fab fa-github"></i> Ver en GitHub &rarr;</a>
+                </div>
+            </div>
+
+        </div>
     </div>
-</div>
 
-<footer>
-    &copy; 2026 Nathael Monsalve - Bogotá, Colombia
-</footer>
+    <footer>
+        &copy; 2026 Nathael Monsalve - Bogotá, Colombia
+    </footer>
 
 </body>
+
 </html>

@@ -1,31 +1,63 @@
-# 🌐 Portafolio Profesional & Blog Técnico - Nathael Monsalve
+# 🌐 Mi Sitio Web Personal - Nathael Monsalve
 
-Este repositorio contiene el código fuente de mi sitio web personal y portafolio profesional, alojado a través de **GitHub Pages**. El objetivo de este espacio es centralizar mis proyectos de análisis de datos, compartir artículos técnicos y documentar mi trayectoria como Ingeniero de Sistemas.
+¡Hola! Este es el repositorio de mi sitio web personal donde muestro mis proyectos y comparto lo que voy aprendiendo como desarrollador.
 
-📍 **Puedes visitar el sitio aquí:** https://monsalvenathael-dev.github.io/nathaelmonsalve-dev.github.io/ 
+� **Visita el sitio aquí:** https://monsalvenathael-dev.github.io/nathaelmonsalve-dev.github.io/
 
 ---
 
-## 🏗️ Tecnologías Utilizadas
-Para el desarrollo y despliegue de este sitio se utilizaron:
-* **HTML5 & CSS3:** Estructura y diseño responsivo (Mobile First).
-* **FontAwesome:** Iconografía profesional.
-* **GitHub Pages:** Hosting y despliegue automático desde la rama `main`.
-* **Markdown:** Para la documentación técnica del repositorio.
+## 📄 ¿Qué páginas tiene el sitio?
 
-## 📁 Estructura del Proyecto
-* `index.html`: Página principal con perfil profesional y stack tecnológico.
-* `blog.html`: Espacio dedicado a artículos de interés (En desarrollo).
-* `portafolio.html`: Espacio dedicado a mis proyectos (En desarrollo).
-* `/assets`: (Próximamente) Carpeta para imágenes de proyectos y estilos adicionales.
+| Página | Descripción |
+|--------|-------------|
+| `index.html` | Mi perfil: quién soy, qué tecnologías manejo y mis datos de contacto |
+| `portafolio.html` | Mis proyectos con enlaces directos a GitHub |
+| `blog.html` | Artículos técnicos (próximamente) |
 
-## 🚧 Estado del Desarrollo
-Este sitio se encuentra actualmente en **desarrollo activo**. Próximas actualizaciones incluirán:
-- [ ] Integración de sección "Proyectos" con enlaces directos a notebooks de Kaggle.
-- [ ] Implementación de un modo oscuro (Dark Mode).
-- [ ] Finalización del primer artículo del blog sobre protección de datos.
+---
 
-## ✉️ Contacto
-Si estás interesado en colaborar en algún proyecto de análisis de datos o automatización con Python:
-- **LinkedIn:** [Nathael Monsalve](www.linkedin.com/in/nathael-monsalve-a5aa691a6)
+## 🛠️ ¿Con qué está hecho?
+
+Usé tecnologías sencillas para que sea fácil de mantener:
+
+- **HTML y CSS** - Para la estructura y el diseño
+- **Font Awesome** - Para los íconos bonitos
+- **GitHub Pages** - Para publicar el sitio gratis
+
+No usé frameworks complicados, solo código limpio y directo.
+
+---
+
+## � Proyectos en el Portafolio
+
+### 1. Análisis de Calidad del Aire en Pereira
+Investigación sobre la calidad del aire y su relación con enfermedades respiratorias.
+
+### 2. [Limpieza de Datos de Proyectos Sociales](https://github.com/monsalvenathael-dev/Limpieza_datos_proy_sociales)
+Herramientas en Python que desarrollé en un trabajo anterior para:
+- Detectar registros duplicados (exactos y aproximados)
+- Calcular muestras estadísticas
+- Generar reportes automáticos
+
+---
+
+## ✅ Lo que ya está listo
+
+- [x] Página principal con mi perfil
+- [x] Portafolio con enlaces a GitHub
+- [x] Diseño responsivo (se ve bien en celular)
+
+## 🚧 Lo que falta por hacer
+
+- [ ] Escribir el primer artículo del blog
+- [ ] Agregar modo oscuro
+- [ ] Mejorar el diseño del portafolio
+
+---
+
+## 📬 ¿Quieres contactarme?
+
+- **LinkedIn:** [Nathael Monsalve](https://www.linkedin.com/in/nathael-monsalve-a5aa691a6)
 - **Email:** monsalvenathael@gmail.com
+
+¡Estoy abierto a colaborar en proyectos de análisis de datos o automatización con Python!
