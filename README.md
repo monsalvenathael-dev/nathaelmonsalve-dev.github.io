@@ -31,7 +31,7 @@ No usé frameworks complicados, solo código limpio y directo.
 ## � Proyectos en el Portafolio
 
 ### 1. Análisis de Calidad del Aire en Pereira
-Investigación sobre la calidad del aire y su relación con enfermedades respiratorias.
+Investigación sobre la calidad del aire y su relación con enfermedades respiratorias (en desarrollo).
 
 ### 2. [Limpieza de Datos de Proyectos Sociales](https://github.com/monsalvenathael-dev/Limpieza_datos_proy_sociales)
 Herramientas en Python que desarrollé en un trabajo anterior para:
